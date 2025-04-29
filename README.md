@@ -9,7 +9,7 @@
     <!-- Left Column: Information (Using HTML for better control) -->
     <td width="50%" style="vertical-align: top;">
       <p>🔭 I’m currently working on <a href="https://github.com/t9tieanh/_freeclassroom"><strong>FreeClassRoom</strong></a></p>
-      <p>🌱 I’m currently learning <strong>Spring Boot</strong>, <strong>React JS</strong>, and <strong>Next JS</strong></p>
+      <p>🌱 I am currently studying Information Technology at Ho Chi Minh City University of Technology and Education (HCMUTE).</p>
       <p>✅ Completed projects:</p>
       <ul>
         <li><a href="https://github.com/t9tieanh/DAS_HotelManagement"><strong>HotelAS - Hotel Booking System</strong></a></li>
