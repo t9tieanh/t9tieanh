@@ -1,22 +1,22 @@
 <h1 align="left">Hi 👋, I'm PhamTienAnh</h1>
 
-<!-- Banner -->
 <p align="center">
   <img src="./img/background.png" alt="Banner" width="100%" />
 </p>
 
-<!-- Avatar + Tiêu đề -->
+
 <p align="left">
   <img src="https://res.cloudinary.com/df3snzgv2/image/upload/t_avatar/v1745857794/z6551694373082_6a543ffb185e1fc13c0197eedb1facbc_p7maqg.jpg" 
        alt="Pham Tien Anh" 
        width="160" 
        style="border-radius: 5%; margin-bottom: 4px;" />
+  <br />
+  <h3 style="margin-top: 0;">Java Software Intern</h3>
 </p>
-<h3 align="left">Java Software Intern</h3>
 
----
-
-### 🚀 About Me
+<table>
+  <tr>
+    <td>
 
 - 🔭 I’m currently working on [**FreeClassRoom**](https://github.com/t9tieanh/_freeclassroom)  
 - 🌱 I’m currently learning **Spring Boot**, **React JS**, and **Next JS**  
@@ -30,7 +30,13 @@
 - 📄 View my CV: [My CV on TopCV](https://www.topcv.vn/xem-cv/CAMEBVBdVA4HWAZWVwUNA1VWBFQEXFZSB1sEBA6dce)  
 - ⚡ Fun fact: *I’ve received two scholarships at HCMUTE!*  
 
----
+    </td>
+    <td>
+      <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="GIF" width="300" />
+    </td>
+  </tr>
+</table>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
