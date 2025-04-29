@@ -4,29 +4,29 @@
   <img src="./img/image.png" alt="Banner" width="100%" />
 </p>
 
-<table  style="width: 100%; table-layout: fixed;" >
-  <tr>
-    <td style="width: 50%; padding: 10px; box-sizing: border-box;">
+<div style="display: flex; justify-content: space-between; padding: 20px;">
+  <!-- Phần nội dung bên trái -->
+  <div style="flex: 1; padding: 10px; box-sizing: border-box; word-wrap: break-word;">
+    <p>🔭 I’m currently working on <a href="https://github.com/t9tieanh/_freeclassroom" target="_blank"><strong>FreeClassRoom</strong></a></p>
+    <p>🌱 I’m currently learning <strong>Spring Boot</strong>, <strong>React JS</strong>, and <strong>Next JS</strong></p>
+    <p>✅ Completed projects:</p>
+    <ul>
+      <li><a href="https://github.com/t9tieanh/DAS_HotelManagement" target="_blank"><strong>HotelAS - Hotel Booking System</strong></a></li>
+      <li><a href="https://github.com/Tcrow06/WebEcommerce_2024-2025" target="_blank"><strong>Web Ecommerce</strong></a></li>
+    </ul>
+    <p>👨‍💻 All of my projects are available at <a href="https://github.com/t9tieanh" target="_blank">github.com/t9tieanh</a></p>
+    <p>✍ I write articles on <a href="https://t9tieanh.github.io/tieanh19-infomation/" target="_blank">my blog</a></p>
+    <p>💬 Ask me about <strong>React</strong>, <strong>Spring Boot</strong></p>
+    <p>📫 Reach me via <strong>phama9162@gmail.com</strong></p>
+    <p>📄 View my CV: <a href="https://www.topcv.vn/xem-cv/CAMEBVBdVA4HWAZWVwUNA1VWBFQEXFZSB1sEBA6dce" target="_blank">My CV on TopCV</a></p>
+    <p>⚡ Fun fact: <em>I’ve received two scholarships at HCMUTE!</em></p>
+  </div>
 
-  - 🔭 I’m currently working on [**FreeClassRoom**](https://github.com/t9tieanh/_freeclassroom)  
-  - 🌱 I’m currently learning **Spring Boot**, **React JS**, and **Next JS**  
-  - ✅ Completed projects:
-    - [**HotelAS - Hotel Booking System**](https://github.com/t9tieanh/DAS_HotelManagement)  
-    - [**Web Ecommerce**](https://github.com/Tcrow06/WebEcommerce_2024-2025)  
-  - 👨‍💻 All of my projects are available at [github.com/t9tieanh](https://github.com/t9tieanh)  
-  - ✍ I write articles on [my blog](https://t9tieanh.github.io/tieanh19-infomation/)  
-  - 💬 Ask me about **React**, **Spring Boot**  
-  - 📫 Reach me via **phama9162@gmail.com**  
-  - 📄 View my CV: [My CV on TopCV](https://www.topcv.vn/xem-cv/CAMEBVBdVA4HWAZWVwUNA1VWBFQEXFZSB1sEBA6dce)  
-  - ⚡ Fun fact: *I’ve received two scholarships at HCMUTE!*  
-
-    </td>
-    <td style="width: 50%; padding: 10px; box-sizing: border-box;">
-      <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="GIF" width="300" />
-    </td>
-  </tr>
-</table>
-
+  <!-- Phần ảnh bên phải -->
+  <div style="flex: 1; padding: 10px; box-sizing: border-box;">
+    <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="GIF" width="100%" />
+  </div>
+</div>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
