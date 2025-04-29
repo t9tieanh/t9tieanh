@@ -5,7 +5,7 @@
 </p>
 
 <div style="display: flex; justify-content: space-between; padding: 20px;">
-  <!-- Phần nội dung bên trái -->
+  <!-- Left Content Section -->
   <div style="flex: 1; padding: 10px; box-sizing: border-box; word-wrap: break-word;">
     <p>🔭 I’m currently working on <a href="https://github.com/t9tieanh/_freeclassroom" target="_blank"><strong>FreeClassRoom</strong></a></p>
     <p>🌱 I’m currently learning <strong>Spring Boot</strong>, <strong>React JS</strong>, and <strong>Next JS</strong></p>
@@ -22,9 +22,9 @@
     <p>⚡ Fun fact: <em>I’ve received two scholarships at HCMUTE!</em></p>
   </div>
 
-  <!-- Phần ảnh bên phải -->
-  <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-    <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="GIF" width="60%" />
+  <!-- Right GIF Section -->
+  <div style="flex: 1; padding: 10px; box-sizing: border-box; display: flex; justify-content: center; align-items: center;">
+    <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="Coding GIF" style="max-width: 60%; height: auto;" />
   </div>
 </div>
 
