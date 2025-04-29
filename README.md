@@ -1,17 +1,7 @@
 <h1 align="left">Hi 👋, I'm PhamTienAnh</h1>
 
 <p align="center">
-  <img src="./img/background.png" alt="Banner" width="100%" />
-</p>
-
-
-<p align="left">
-  <img src="https://res.cloudinary.com/df3snzgv2/image/upload/t_avatar/v1745857794/z6551694373082_6a543ffb185e1fc13c0197eedb1facbc_p7maqg.jpg" 
-       alt="Pham Tien Anh" 
-       width="160" 
-       style="border-radius: 5%; margin-bottom: 4px;" />
-  <br />
-  <h3 style="margin-top: 0; border-bottom: 2px solid #000; padding-bottom: 10px;">Java Software Intern</h3>
+  <img src="./img/image.png" alt="Banner" width="100%" />
 </p>
 
 <table  style="width: 100%; table-layout: fixed;" >
