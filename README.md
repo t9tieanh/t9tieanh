@@ -1,7 +1,7 @@
 <h1 align="left">Hi 👋, I'm PhamTienAnh</h1>
 
 <p align="center">
-  <img src="./img/image.png" alt="Banner" width="100%" />
+  <img src="./img/background1.jpg" alt="Banner" width="100%" />
 </p>
 
 <table>
