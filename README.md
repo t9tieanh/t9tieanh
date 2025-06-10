@@ -19,7 +19,7 @@
       <p>✍ I write articles on <a href="https://t9tieanh.github.io/tieanh19-infomation/">my blog</a></p>
       <p>💬 Ask me about <strong>React</strong>, <strong>Spring Boot</strong></p>
       <p>📫 Reach me via <strong>phama9162@gmail.com</strong></p>
-      <p>📄 View my CV: <a href="https://www.topcv.vn/xem-cv/CAMEBVBdVA4HWAZWVwUNA1VWBFQEXFZSB1sEBA6dce">My CV on TopCV</a></p>
+      <p>📄 View my CV: <a href="https://drive.google.com/file/d/1aIq2V2ZxaVxOGmTAv7zch_Y6TLFi9gdG/view?usp=sharing">My CV on TopCV</a></p>
       <p>⚡ Fun fact: <em>I’ve received two scholarships at HCMUTE!</em></p>
     </td>
     <!-- Right Column: GIF -->
