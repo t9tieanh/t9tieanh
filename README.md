@@ -1,7 +1,4 @@
-<h1 align=      <p>🔭 I'm currently working on <a href="https://github.com/t9tieanh/freeclassroom_"><strong>FreeClassRoom</strong></a></p>
-      <p>🌱 I am currently studying Information Technology at Ho Chi Minh City University of Technology and Education (HCMUTE).</p>
-      <p>💼 I'm currently working as a <strong>Fullstack Developer Intern</strong> at <strong>BIT GROUP</strong> (7/2025 - Present)</p>
-      <p>🏢 Previously worked as a <strong>Developer Intern</strong> at <strong>Apps Cyclone Technology JSC</strong> (06/2025 - 07/2025)</p>eft">Hi 👋, I'm PhamTienAnh</h1>
+<h1 align="left">Hi 👋, I'm PhamTienAnh</h1>
 
 <p align="center">
   <img src="./img/background1.jpg" alt="Banner" width="100%" />
