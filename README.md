@@ -1,39 +1,122 @@
-<h1 align="left">Hi 👋, I'm PhamTienAnh</h1>
+<!-- Banner / Cover -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:f72585&height=200&section=header&text=👋%20Hi,%20I'm%20Pham%20Tien%20Anh&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%" />
 
+<!-- Intro Section -->
 <p align="center">
-  <img src="./img/background1.jpg" alt="Banner" width="100%" />
+  <a href="https://github.com/t9tieanh">
+    <img src="./img/background1.jpg" alt="Banner" width="100%" />
+  </a>
 </p>
 
 <table>
   <tr>
-    <!-- Left Column: Information (Using HTML for better control) -->
-    <td width="50%" style="vertical-align: top;">
-      <p>🔭 I’m currently working on <a href="https://github.com/t9tieanh/freeclassroom_"><strong>FreeClassRoom</strong></a></p>
-      <p>🌱 I am currently studying Information Technology at Ho Chi Minh City University of Technology and Education (HCMUTE).</p>
-      <p>✅ Completed projects:</p>
-      <ul>
-        <li><a href="https://github.com/t9tieanh/DAS_HotelManagement"><strong>HotelAS - Hotel Booking System</strong></a></li>
-        <li><a href="https://github.com/Tcrow06/WebEcommerce_2024-2025"><strong>Web Ecommerce</strong></a></li>
-      </ul>
-      <p>👨‍💻 All of my projects are available at <a href="https://github.com/t9tieanh">github.com/t9tieanh</a></p>
-      <p>✍ I write articles on <a href="https://t9tieanh.github.io/tieanh19-infomation/">my blog</a></p>
-      <p>💬 Ask me about <strong>React</strong>, <strong>Spring Boot</strong></p>
-      <p>📄 View my CV: <a href="https://drive.google.com/file/d/16xZJzQD_jdlD5HZnj3GNFBoMSxxAUg0q/view?usp=sharing">My CV on TopCV</a></p>
-      <p>⚡ Fun fact: <em>I’ve received two scholarships at HCMUTE!</em></p>
+    <!-- Left Column: Information -->
+    <td width="55%" style="vertical-align: top;">
+      <h2>👋 About Me</h2>
+      <p>🚀 <strong>Backend Developer</strong> passionate about building scalable systems and DevOps automation.</p>
+      <p>💼 Had work experience at <strong><a href="https://geekup.vn/">GEEK Up</a></strong> and <strong><a href="https://bit.com.vn/">BIT Group</a></strong>.</p>
+      <p>🎓 Software Technology student at <strong>HCMUTE</strong> (GPA: 3.62/4.0).</p>
+      <p>🏆 2-time Recipient of University Academic Scholarship.</p>
+      <p>📜 <strong>Certifications:</strong> AWS Academy Graduate, TOEIC 680.</p>
+      <p>⚡ Fun fact: <em>I love optimizing workflows and automating everything!</em></p>
     </td>
     <!-- Right Column: GIF -->
-    <td width="50%" align="center">
-      <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="Coding GIF" width="100%">
+    <td width="45%" align="center">
+      <img src="./img/t9tieanh-gif.gif" alt="Coding GIF" width="100%">
     </td>
   </tr>
 </table>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ph%e1%ba%a1m-ti%e1%ba%bfn-anh-1bb126317/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ph%e1%ba%a1m-ti%e1%ba%bfn-anh-1bb126317/" height="30" width="40" /></a>
-<a href="https://fb.com/tieanh19" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tieanh19" height="30" width="40" /></a>
-<a href="https://instagram.com/pphamtienanh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pphamtienanh" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## 🛠 Tech Stack
+
+**Languages:**  
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) &nbsp; 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000) &nbsp; 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) &nbsp; 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) &nbsp; 
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+**Frameworks & Libraries:**  
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) &nbsp; 
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) &nbsp; 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000) &nbsp; 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) &nbsp; 
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) &nbsp; 
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) &nbsp; 
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black)
+
+**Databases:**  
+![Postgres](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white) &nbsp; 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) &nbsp; 
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) &nbsp; 
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) &nbsp; 
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+
+**DevOps & Infrastructure:**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) &nbsp; 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) &nbsp; 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-000000?style=for-the-badge&logo=github-actions&logoColor=white) &nbsp; 
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) &nbsp; 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) &nbsp; 
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white) &nbsp; 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) &nbsp; 
+![SSH](https://img.shields.io/badge/SSH-000000?style=for-the-badge&logo=openssh&logoColor=white) &nbsp; 
+![Monitoring](https://img.shields.io/badge/Monitoring-000000?style=for-the-badge&logo=prometheus&logoColor=white)
+
+**Other Technologies:**  
+![Microservices](https://img.shields.io/badge/Microservices-005571?style=for-the-badge&logo=compas&logoColor=white) &nbsp; 
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white) &nbsp; 
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+---
+
+## 📌 Featured Projects
+
+### 🚀 [LEANOVA – Smart Learning System](https://github.com/t9tieanh/Learning-Platform)
+**Fullstack Developer** | *Sep 2025 - Present*
+- **Short Description:** A comprehensive full-stack e-learning platform designed with a microservices architecture to empower instructors and provide learners with interactive, real-time communities.
+- **Tech Stack:** Spring Boot, NestJS, ReactJS, gRPC, RabbitMQ, MySQL, MongoDB, Redis, Docker, AWS (S3, CloudFront).
+- **Technical Highlights:**
+  - Architected with **Microservices** & Spring Cloud Gateway for routing and JWT validation.
+  - Implemented **Saga Pattern** to manage distributed transactions across services.
+  - Optimized communication using **gRPC** (sync) and **RabbitMQ** (async).
+  - Built real-time features with **Socket.IO** and AI history storage in MongoDB.
+  - Deployed via **CI/CD GitHub Actions** to VPS using Docker.
+- **GitHub:** [t9tieanh/Learning-Platform](https://github.com/t9tieanh/Learning-Platform)
+- **Website:** [learnova.t9tieanh.io.vn](https://learnova.t9tieanh.io.vn/)
+
+### 📍 [FreeClassRoom](https://github.com/t9tieanh/freeclassroom_)
+**Fullstack Developer** | *June 2025 - July 2025*
+- **Short Description:** An open learning platform for creating courses, joining classes, and sharing knowledge through posts.
+- **Tech Stack:** Node.js (TypeScript), ExpressJS, ReactJS, JWT, OAuth2, MongoDB, Redis, RabbitMQ.
+- **Technical Highlights:**
+  - Integrated **OAuth2 (Google Sign-In)** and secured APIs with JWT.
+  - Implemented asynchronous notification services using **RabbitMQ**.
+  - Utilized **Redis** for caching and secure OTP code storage.
+  - Developed real-time messaging using **Socket.IO**.
+  - Managed image storage with **Cloudinary**.
+- **GitHub:** [t9tieanh/freeclassroom_](https://github.com/t9tieanh/freeclassroom_)
+
+### 🏨 [HOTELAS – Booking System](https://github.com/t9tieanh/DAS_HotelManagement)
+**Fullstack Developer** | *March 2025 - May 2025*
+- **Short Description:** A hotel booking system featuring room search, details, and reservations with integrated online payment.
+- **Tech Stack:** Spring Boot, ReactJS, JWT, OAuth2, MySQL, Redis, VNPay, Docker.
+- **Technical Highlights:**
+  - Built a responsive UI using **ReactJS** and **Bootstrap**.
+  - Integrated **VNPay** for secure online payment processing.
+  - Implemented **Google Login (OAuth2)** and JWT-based authentication.
+  - Containerized the entire system with **Docker** for easy scalability and deployment.
+- **GitHub:** [t9tieanh/DAS_HotelManagement](https://github.com/t9tieanh/DAS_HotelManagement)
+
+---
+
+## 📫 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ph%e1%ba%a1m-ti%e1%ba%bfn-anh-1bb126317/)
+[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/tieanh19)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/pphamtienanh)
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:f72585&height=120&section=footer" width="100%" />
