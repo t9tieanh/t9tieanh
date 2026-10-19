@@ -1,31 +1,24 @@
 <!-- Banner / Cover -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:f72585&height=200&section=header&text=👋%20Hi,%20I'm%20Pham%20Tien%20Anh&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,100:22d3ee&height=200&section=header&text=👋%20Hi,%20I'm%20Pham%20Tien%20Anh&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%" />
 
 <!-- Intro Section -->
 <p align="center">
   <a href="https://github.com/t9tieanh">
-    <img src="./img/background1.jpg" alt="Banner" width="100%" />
+    <img src="./img/backgroud-new.png" alt="Banner" width="100%" />
   </a>
 </p>
 
-<table>
-  <tr>
-    <!-- Left Column: Information -->
-    <td width="55%" style="vertical-align: top;">
-      <h2>👋 About Me</h2>
-      <p>🚀 <strong>Backend Developer</strong> passionate about building scalable systems and DevOps automation.</p>
-      <p>💼 Had work experience at <strong><a href="https://geekup.vn/">GEEK Up</a></strong> and <strong><a href="https://bit.com.vn/">BIT Group</a></strong>.</p>
-      <p>🎓 Software Technology student at <strong>HCMUTE</strong> (GPA: 3.62/4.0).</p>
-      <p>🏆 2-time Recipient of University Academic Scholarship.</p>
-      <p>📜 <strong>Certifications:</strong> AWS Academy Graduate, TOEIC 680.</p>
-      <p>⚡ Fun fact: <em>I love optimizing workflows and automating everything!</em></p>
-    </td>
-    <!-- Right Column: GIF -->
-    <td width="45%" align="center">
-      <img src="./img/t9tieanh-gif.gif" alt="Coding GIF" width="100%">
-    </td>
-  </tr>
-</table>
+## 👋 About Me
+<p>🚀 <strong>Backend Developer</strong> passionate about building scalable systems and DevOps automation.</p>
+<p>💼 Currently working at <strong><a href="https://geekup.vn/">GEEK Up</a></strong>; previously at <strong><a href="https://bit.com.vn/">BIT Group</a></strong>.</p>
+<p>🎓 Software Technology graduate from <strong>HCMUTE</strong> — <strong><em>Graduated with High Distinction (GPA: 3.68/4.0)</em></strong>.</p>
+<p>🏆 2-time Recipient of University Academic Scholarship.</p>
+<p>📜 <strong>Certifications:</strong> AWS Academy Graduate, TOEIC 680.</p>
+<p>⚡ Fun fact: <em>I love optimizing workflows and automating everything!</em></p>
+
+<p align="center">
+  <img src="./img/t9tieanh-gif.gif" alt="Coding GIF" width="100%">
+</p>
 
 ---
 
@@ -74,8 +67,13 @@
 
 ## 📌 Featured Projects
 
-### 🚀 [LEANOVA – Smart Learning System](https://github.com/t9tieanh/Learning-Platform)
-**Fullstack Developer** | *Sep 2025 - Present*
+<p align="center">
+  <a href="https://learnova.t9tieanh.io.vn/"><img src="./img/learnova-banner.jpg" alt="Learnova Banner" width="49%" /></a>
+  <a href="https://github.com/t9tieanh/Learning-Platform"><img src="./img/learnova-poster.jpg" alt="Learnova Poster" width="49%" /></a>
+</p>
+
+### 🚀 [Learnova – Collaborative E-Learning System](https://github.com/t9tieanh/Learning-Platform)
+**Fullstack Developer** | *Sep 2025 - Present* | 👥 **Contributors:** Sang
 - **Short Description:** A comprehensive full-stack e-learning platform designed with a microservices architecture to empower instructors and provide learners with interactive, real-time communities.
 - **Tech Stack:** Spring Boot, NestJS, ReactJS, gRPC, RabbitMQ, MySQL, MongoDB, Redis, Docker, AWS (S3, CloudFront).
 - **Technical Highlights:**
@@ -83,32 +81,16 @@
   - Implemented **Saga Pattern** to manage distributed transactions across services.
   - Optimized communication using **gRPC** (sync) and **RabbitMQ** (async).
   - Built real-time features with **Socket.IO** and AI history storage in MongoDB.
+  - Built an AI assistant with **RAG**: lecture videos are transcribed to **SRT**, which triggers a **semantic chunking** pipeline that splits each video into meaning-based segments.
   - Deployed via **CI/CD GitHub Actions** to VPS using Docker.
 - **GitHub:** [t9tieanh/Learning-Platform](https://github.com/t9tieanh/Learning-Platform)
 - **Website:** [learnova.t9tieanh.io.vn](https://learnova.t9tieanh.io.vn/)
+- **Fanpage:** [Learnova on Facebook](https://www.facebook.com/profile.php?id=61569020296267)
 
-### 📍 [FreeClassRoom](https://github.com/t9tieanh/freeclassroom_)
-**Fullstack Developer** | *June 2025 - July 2025*
-- **Short Description:** An open learning platform for creating courses, joining classes, and sharing knowledge through posts.
-- **Tech Stack:** Node.js (TypeScript), ExpressJS, ReactJS, JWT, OAuth2, MongoDB, Redis, RabbitMQ.
-- **Technical Highlights:**
-  - Integrated **OAuth2 (Google Sign-In)** and secured APIs with JWT.
-  - Implemented asynchronous notification services using **RabbitMQ**.
-  - Utilized **Redis** for caching and secure OTP code storage.
-  - Developed real-time messaging using **Socket.IO**.
-  - Managed image storage with **Cloudinary**.
-- **GitHub:** [t9tieanh/freeclassroom_](https://github.com/t9tieanh/freeclassroom_)
-
-### 🏨 [HOTELAS – Booking System](https://github.com/t9tieanh/DAS_HotelManagement)
-**Fullstack Developer** | *March 2025 - May 2025*
-- **Short Description:** A hotel booking system featuring room search, details, and reservations with integrated online payment.
-- **Tech Stack:** Spring Boot, ReactJS, JWT, OAuth2, MySQL, Redis, VNPay, Docker.
-- **Technical Highlights:**
-  - Built a responsive UI using **ReactJS** and **Bootstrap**.
-  - Integrated **VNPay** for secure online payment processing.
-  - Implemented **Google Login (OAuth2)** and JWT-based authentication.
-  - Containerized the entire system with **Docker** for easy scalability and deployment.
-- **GitHub:** [t9tieanh/DAS_HotelManagement](https://github.com/t9tieanh/DAS_HotelManagement)
+<p align="center">
+  <img src="./img/learnova-architecture.jpg" alt="Learnova Architecture" width="100%" />
+  <img src="./img/learnova-saga-pattern.jpg" alt="Learnova Saga Pattern" width="100%" />
+</p>
 
 ---
 
@@ -119,4 +101,4 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:f72585&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,100:22d3ee&height=120&section=footer" width="100%" />
