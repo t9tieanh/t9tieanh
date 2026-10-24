@@ -51,25 +51,21 @@ Backend Developer with experience in the banking domain, building scalable syste
 \section{Work Experience}
 \entry{GEEK Up}{09/2025 -- Present}{Backend Developer}
 
-\project{Real Estate -- Home Loan Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins}
+\project{Real Estate -- Home Loan Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins, GitLab CI}
 \begin{itemize}
   \item Built the CMS for a B2B2C platform that helps home buyers find properties and get financing. The CMS supplies data to the backend and mobile apps, syncs listings from partner portals to enrich property data, and manages partner promotions and advertising that bring in more users.
   \item Built background jobs for heavy media ingestion that pull image and video assets in batches of up to 200 files, capped at 6\,GB per run. The jobs are designed to scale horizontally on Kubernetes.
+  \item Set up GitLab CI/CD pipelines on the company's internal GitLab to build and deploy automatically to the dev and staging environments.
   \item Worked directly with client stakeholders to clarify requirements and plan releases. Deployed releases to the client's OpenShift/Kubernetes environment through their Jenkins pipelines.
 \end{itemize}
 \vspace{8pt}
 
-\project{Banking -- Loan Application Processing System}{Spring Boot, Camunda (BPMN), RabbitMQ, Microservices, AWS S3}
+\project{Banking -- Loan Application Processing System}{Spring Boot, Camunda (BPMN), RabbitMQ, Microservices, AWS S3, GitLab CI}
 \begin{itemize}
-  \item Developed Spring Boot microservices for a loan support platform, using Camunda to orchestrate loan applications across services through each processing stage and on to multiple internal and partner systems.
+  \item Developed Spring Boot microservices for a system that helps users submit applications to open new loans, using Camunda to orchestrate loan applications across services through each processing stage and on to multiple internal and partner systems.
   \item Used RabbitMQ for asynchronous, event-driven communication between services, which keeps them loosely coupled, and AWS S3 to store loan documents.
   \item Applied design patterns such as Strategy and Factory to keep the codebase extensible, and used shared API contracts to keep API specs consistent across services, making integration easier for the frontend team and external systems.
-\end{itemize}
-\vspace{8pt}
-
-\project{Team CI/CD}{GitLab CI}
-\begin{itemize}
-  \item Set up GitLab CI/CD pipelines that automate build, test and deployment for the team and remove manual deploys.
+  \item Set up GitLab CI/CD pipelines on the internal GitLab for the dev and staging environments of each service.
 \end{itemize}
 \divider
 
