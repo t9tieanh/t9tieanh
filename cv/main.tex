@@ -1,0 +1,130 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage[top=1.2cm,bottom=1.2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{fontawesome5}
+\usepackage[table]{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{subtle}{gray}{0.40}
+\definecolor{divider}{gray}{0.88}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.04}
+
+\titleformat{\section}{\Large\uppercase}{}{0pt}{}[\vspace{-6pt}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.4em,itemsep=1pt,topsep=2pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\divider}{\vspace{8pt}{\color{divider}\rule{\textwidth}{0.5pt}}\vspace{4pt}}
+
+% \entry{title}{date}{subtitle}
+\newcommand{\entry}[3]{%
+  \textbf{#1}\hfill #2\par\vspace{3pt}
+  {\itshape\color{subtle}#3}\par\vspace{1pt}}
+
+\newcommand{\project}[2]{\textbf{#1}\par{\small\itshape\color{subtle}#2}\par}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{24}{28}\selectfont\textbf{Pham Tien Anh}}\\[6pt]
+  {\large\textbf{Backend Developer}}\\[8pt]
+  \faEnvelope\ \href{mailto:phama9162@gmail.com}{phama9162@gmail.com}\quad
+  \faMapMarker*\ Ho Chi Minh City\quad
+  \faPhone\ 0856230326\quad
+  \faGlobe\ \href{https://www.t9tieanh.io.vn/}{t9tieanh.io.vn}
+\end{center}
+
+\section{Summary}
+Backend Developer with experience in the banking domain, building scalable systems with Spring Boot, Node.js, NestJS,... and microservice architecture. Hands-on with event-driven messaging, background processing, workflow orchestration and deploying on OpenShift/Kubernetes. Interested in cloud technologies and in applying AI to real products, including RAG, chunking strategies and LLM integration.
+
+\begingroup
+\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\section{Work Experience}
+\entry{GEEK Up}{09/2025 -- Present}{Backend Developer}
+
+\project{Real Estate -- Home Loan Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins}
+\begin{itemize}
+  \item Built the CMS for a B2B2C platform that helps home buyers find properties and get financing. The CMS supplies data to the backend and mobile apps, syncs listings from partner portals to enrich property data, and manages partner promotions and advertising that bring in more users.
+  \item Built background jobs for heavy media ingestion that pull image and video assets in batches of up to 200 files, capped at 6\,GB per run. The jobs are designed to scale horizontally on Kubernetes.
+  \item Worked directly with client stakeholders to clarify requirements and plan releases. Deployed releases to the client's OpenShift/Kubernetes environment through their Jenkins pipelines.
+\end{itemize}
+\vspace{8pt}
+
+\project{Banking -- Loan Application Processing System}{Spring Boot, Camunda (BPMN), RabbitMQ, Microservices, AWS S3}
+\begin{itemize}
+  \item Developed Spring Boot microservices for a loan support platform, using Camunda to orchestrate loan applications across services through each processing stage and on to multiple internal and partner systems.
+  \item Used RabbitMQ for asynchronous, event-driven communication between services, which keeps them loosely coupled, and AWS S3 to store loan documents.
+  \item Applied design patterns such as Strategy and Factory to keep the codebase extensible, and used shared API contracts to keep API specs consistent across services, making integration easier for the frontend team and external systems.
+\end{itemize}
+\vspace{8pt}
+
+\project{Team CI/CD}{GitLab CI}
+\begin{itemize}
+  \item Set up GitLab CI/CD pipelines that automate build, test and deployment for the team and remove manual deploys.
+\end{itemize}
+\divider
+
+\entry{BIT GROUP}{06/2025 -- 09/2025}{Fullstack Developer Intern}
+\begin{itemize}
+  \item Built booking APIs for a sports venue booking platform with Redis caching, Socket.IO real-time updates and OAuth2, plus a ReactJS admin panel.
+\end{itemize}
+\endgroup
+
+\pagebreak
+\section{Projects}
+\entry{Learnova -- Collaborative E-Learning System}{09/2025 -- Present}{Fullstack Developer}
+{\small\textit{Microservices, Spring Boot, NodeJS, gRPC, RabbitMQ, MySQL, MongoDB, Redis, Docker, Saga Transaction, AWS S3/CloudFront}}\par
+\begin{itemize}
+  \item Microservice platform that combines e-commerce and LMS. Instructors create and sell courses, and learners buy courses, study the video lessons and join real-time communities.
+  \item \textbf{AI learning assistant:}
+  \begin{itemize}
+    \item Lecture videos are transcribed, and semantic chunking splits each transcript into topic-based sections.
+    \item Students can ask questions about course content, and RAG answers them from the lectures.
+  \end{itemize}
+  \item \textbf{Backend architecture:}
+  \begin{itemize}
+    \item Designed the microservice architecture around clear domain boundaries such as Course, Sale and Notification, so each service can be scaled on its own based on feature load.
+    \item Videos and file assets are managed with AWS S3 and CloudFront CDN. Large files are uploaded in chunks, and S3 presigned URLs let clients upload and download directly.
+    \item Saga pattern keeps services consistent through the course purchase flow.
+    \item gRPC for synchronous calls between services, RabbitMQ for async events.
+  \end{itemize}
+  \item Real-time chat and notifications use Socket.IO.
+  \item Set up CI/CD with GitHub Actions to deploy automatically.
+  \item \textbf{GitHub:} \href{https://github.com/t9tieanh/Learning-Platform}{github.com/t9tieanh/Learning-Platform}
+  \item \textbf{Website:} \href{https://learnova.t9tieanh.io.vn/}{learnova.t9tieanh.io.vn}
+  \item \textbf{Fanpage:} \href{https://www.facebook.com/profile.php?id=61569020296267}{Learnova on Facebook}
+\end{itemize}
+
+\section{Skills}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\textwidth}{@{}p{4.2cm}X@{}}
+  \textcolor{subtle}{Languages} & Java, TypeScript, JavaScript \\ \arrayrulecolor{divider}\hline
+  \textcolor{subtle}{Backend} & Spring Boot, NestJS, Node.js/Express, Directus, Camunda (BPMN) \\ \hline
+  \textcolor{subtle}{Architecture} & Microservices, gRPC, RabbitMQ, Saga pattern, background jobs (BullMQ), REST \\ \hline
+  \textcolor{subtle}{Databases} & PostgreSQL, MySQL, MongoDB, Redis \\ \hline
+  \textcolor{subtle}{DevOps \& Cloud} & OpenShift/Kubernetes, Docker, GitLab CI, GitHub Actions, AWS (EC2, S3, CloudFront), Linux \\ \hline
+  \textcolor{subtle}{AI} & RAG, chunking strategies, LLM integration \\ \hline
+  \textcolor{subtle}{Frontend} & ReactJS \\
+\end{tabularx}
+
+\section{Education}
+\entry{HCMC University of Technology and Education -- HCMUTE}{10/2022 -- 09/2026}{Software Technology}
+\textit{Graduated with \textbf{High Distinction} \textperiodcentered\ \textbf{GPA 3.68/4.0}}\par
+\textit{Academic Encouragement Scholarship (2 semesters)}
+
+\section{Certifications}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  AWS Academy Graduate -- Cloud Developing & 11/2025 \\
+  TOEIC: 680 & 10/2024 \\
+\end{tabularx}
+
+\end{document}
