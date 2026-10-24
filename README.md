@@ -14,6 +14,7 @@
 <p>🎓 Software Technology graduate from <strong>HCMUTE</strong> — <strong><em>Graduated with High Distinction (GPA: 3.68/4.0)</em></strong>.</p>
 <p>🏆 2-time Recipient of University Academic Scholarship.</p>
 <p>📜 <strong>Certifications:</strong> AWS Academy Graduate, TOEIC 680.</p>
+<p>📄 <strong>Resume:</strong> <a href="https://github.com/t9tieanh/t9tieanh/raw/main/cv/mycv.pdf">Download my CV (PDF)</a></p>
 <p>⚡ Fun fact: <em>I love optimizing workflows and automating everything!</em></p>
 
 <p align="center">
@@ -95,6 +96,7 @@
 ---
 
 ## 📫 Connect with Me
+[![Download CV](https://img.shields.io/badge/-Download_CV-1d4ed8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/t9tieanh/t9tieanh/raw/main/cv/mycv.pdf)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ph%e1%ba%a1m-ti%e1%ba%bfn-anh-1bb126317/)
 [![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/tieanh19)
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/pphamtienanh)
