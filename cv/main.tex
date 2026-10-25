@@ -30,6 +30,9 @@
   \textbf{#1}\hfill #2\par\vspace{3pt}
   {\itshape\color{subtle}#3}\par\vspace{1pt}}
 
+% \company{name}{url}{display domain}
+\newcommand{\company}[3]{\href{#2}{#1}\normalfont{\small\color{subtle}\quad\href{#2}{#3}}}
+
 \newcommand{\project}[2]{\textbf{#1}\par{\small\itshape\color{subtle}#2}\par}
 
 \begin{document}
@@ -49,7 +52,7 @@ Backend Developer with experience in the banking domain, building scalable syste
 \begingroup
 \setlist[itemize]{itemsep=2pt,topsep=4pt}
 \section{Work Experience}
-\entry{GEEK Up}{09/2025 -- Present}{Backend Developer}
+\entry{\company{GEEK Up}{https://geekup.vn/}{geekup.vn}}{09/2025 -- Present}{Backend Developer}
 
 \project{Real Estate -- Home Loan Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins, GitLab CI}
 \begin{itemize}
@@ -69,7 +72,7 @@ Backend Developer with experience in the banking domain, building scalable syste
 \end{itemize}
 \divider
 
-\entry{BIT GROUP}{06/2025 -- 09/2025}{Fullstack Developer Intern}
+\entry{\company{BIT GROUP}{https://bit.com.vn/}{bit.com.vn}}{06/2025 -- 09/2025}{Fullstack Developer Intern}
 \begin{itemize}
   \item Built booking APIs for a sports venue booking platform with Redis caching, Socket.IO real-time updates and OAuth2, plus a ReactJS admin panel.
 \end{itemize}
