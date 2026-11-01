@@ -47,25 +47,25 @@
 \end{center}
 
 \section{Summary}
-Backend Developer with experience in the banking domain, building scalable systems with Spring Boot, Node.js, NestJS,... and microservice architecture. Hands-on with event-driven messaging, background processing, workflow orchestration and deploying on OpenShift/Kubernetes. Interested in cloud technologies and in applying AI to real products, including RAG, chunking strategies and LLM integration.
+Backend Developer with experience in the banking domain, building scalable systems with Spring Boot, Node.js, NestJS,... and microservice architecture. Hands-on with event-driven messaging, background processing, workflow orchestration and horizontally scalable services on platforms such as Kubernetes. Interested in cloud technologies and in applying AI to real products, including RAG, chunking strategies and LLM integration.
 
 \begingroup
-\setlist[itemize]{itemsep=2pt,topsep=4pt}
+\setlist[itemize]{itemsep=1pt,topsep=3pt}
 \section{Work Experience}
 \entry{\company{GEEK Up}{https://geekup.vn/}{geekup.vn}}{09/2025 -- Present}{Backend Developer}
 
-\project{Real Estate -- Home Loan Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins, GitLab CI}
+\project{Real Estate Content Platform}{Directus, Node.js, BullMQ, OpenShift/Kubernetes, Jenkins, GitLab CI}
 \begin{itemize}
-  \item Built the CMS for a B2B2C platform that helps home buyers find properties and get financing. The CMS supplies data to the backend and mobile apps, syncs listings from partner portals to enrich property data, and manages partner promotions and advertising that bring in more users.
-  \item Built background jobs for heavy media ingestion that pull image and video assets in batches of up to 200 files, capped at 6\,GB per run. The jobs are designed to scale horizontally on Kubernetes.
+  \item Built the CMS for a B2B2C platform that helps home buyers find properties and get financing. It supplies property data to the backend and mobile apps, and manages partner promotions and advertising that bring in more users.
+  \item Built queue-based background jobs (BullMQ) that sync listings and media from partner portals over FTP to enrich property data, distributing heavy ingestion across workers in batches of up to 200 image and video files, capped at 6\,GB per run. The workers are designed to scale horizontally on Kubernetes.
   \item Set up GitLab CI/CD pipelines on the company's internal GitLab to build and deploy automatically to the dev and staging environments.
   \item Worked directly with client stakeholders to clarify requirements and plan releases. Deployed releases to the client's OpenShift/Kubernetes environment through their Jenkins pipelines.
 \end{itemize}
 \vspace{8pt}
 
-\project{Banking -- Loan Application Processing System}{Spring Boot, Camunda (BPMN), RabbitMQ, Microservices, AWS S3, GitLab CI}
+\project{Digital Onboarding Platform}{Spring Boot, Camunda (BPMN), RabbitMQ, Microservices, AWS S3, GitLab CI}
 \begin{itemize}
-  \item Developed Spring Boot microservices for a system that helps users submit applications to open new loans, using Camunda to orchestrate loan applications across services through each processing stage and on to multiple internal and partner systems.
+  \item Developed Spring Boot microservices for a system that helps users submit applications to open new loans and lets the bank monitor those loans after disbursement, using Camunda to orchestrate loan applications across services through each processing stage and on to multiple internal and partner systems such as the CRM and the core banking system.
   \item Used RabbitMQ for asynchronous, event-driven communication between services, which keeps them loosely coupled, and AWS S3 to store loan documents.
   \item Applied design patterns such as Strategy and Factory to keep the codebase extensible, and used shared API contracts to keep API specs consistent across services, making integration easier for the frontend team and external systems.
   \item Set up GitLab CI/CD pipelines on the internal GitLab for the dev and staging environments of each service.
@@ -74,7 +74,8 @@ Backend Developer with experience in the banking domain, building scalable syste
 
 \entry{\company{BIT GROUP}{https://bit.com.vn/}{bit.com.vn}}{06/2025 -- 09/2025}{Fullstack Developer Intern}
 \begin{itemize}
-  \item Built booking APIs for a sports venue booking platform with Redis caching, Socket.IO real-time updates and OAuth2, plus a ReactJS admin panel.
+  \item Built booking APIs for a sports venue booking platform with Redis caching, Socket.IO real-time updates and OAuth2.
+  \item Used Redis distributed locks to prevent race conditions when users book the same slot concurrently.
 \end{itemize}
 \endgroup
 
@@ -109,9 +110,8 @@ Backend Developer with experience in the banking domain, building scalable syste
   \textcolor{subtle}{Backend} & Spring Boot, NestJS, Node.js/Express, Directus, Camunda (BPMN) \\ \hline
   \textcolor{subtle}{Architecture} & Microservices, gRPC, RabbitMQ, Saga pattern, background jobs (BullMQ), REST \\ \hline
   \textcolor{subtle}{Databases} & PostgreSQL, MySQL, MongoDB, Redis \\ \hline
-  \textcolor{subtle}{DevOps \& Cloud} & OpenShift/Kubernetes, Docker, GitLab CI, GitHub Actions, AWS (EC2, S3, CloudFront), Linux \\ \hline
-  \textcolor{subtle}{AI} & RAG, chunking strategies, LLM integration \\ \hline
-  \textcolor{subtle}{Frontend} & ReactJS \\
+  \textcolor{subtle}{DevOps \& Cloud} & OpenShift/Kubernetes (development), Docker, GitLab CI, GitHub Actions, AWS (EC2, S3, CloudFront), Linux \\ \hline
+  \textcolor{subtle}{AI} & RAG, chunking strategies, LLM integration \\
 \end{tabularx}
 
 \section{Education}
@@ -120,10 +120,10 @@ Backend Developer with experience in the banking domain, building scalable syste
 \textit{Academic Encouragement Scholarship (2 semesters)}
 
 \section{Certifications}
-\begin{tabularx}{\textwidth}{@{}Xr@{}}
-  \company{AWS Academy Graduate -- Cloud Developing}{https://www.credly.com/badges/c3177b9c-b694-484e-9a52-45923e36d082}{Credly} & 11/2025 \\
-  \company{AWS Academy Graduate -- Cloud Foundations}{https://www.credly.com/badges/2acb0390-e92e-4078-b2e9-b5e650ed6a03}{Credly} & 10/2025 \\
-  TOEIC: 680 & 10/2024 \\
+\begin{tabularx}{\textwidth}{@{}X@{}}
+  \company{AWS Academy Graduate -- Cloud Developing}{https://www.credly.com/badges/c3177b9c-b694-484e-9a52-45923e36d082}{Credly} \\
+  \company{AWS Academy Graduate -- Cloud Foundations}{https://www.credly.com/badges/2acb0390-e92e-4078-b2e9-b5e650ed6a03}{Credly} \\
+  TOEIC: 680 \\
 \end{tabularx}
 
 \end{document}
