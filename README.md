@@ -9,8 +9,8 @@
 </p>
 
 ## 👋 About Me
-<p>🚀 <strong>Backend Developer</strong> passionate about building scalable systems and DevOps automation.</p>
-<p>💼 Currently working at <strong><a href="https://geekup.vn/">GEEK Up</a></strong>; previously at <strong><a href="https://bit.com.vn/">BIT Group</a></strong>.</p>
+<p>🚀 <strong>Software Engineer</strong> passionate about building scalable systems and DevOps automation.</p>
+<p>💼 Currently working as <strong>Product Backend</strong> at <strong><a href="https://geekup.vn/">GEEK Up</a></strong>; previously <strong>Fullstack Developer Intern</strong> at <strong><a href="https://bit.com.vn/">BIT Group</a></strong>.</p>
 <p>🎓 Software Technology graduate from <strong>HCMUTE</strong> — <strong><em>Graduated with High Distinction (GPA: 3.68/4.0)</em></strong>.</p>
 <p>🏆 2-time Recipient of University Academic Scholarship.</p>
 <p>📜 <strong>Certifications:</strong> AWS Academy Graduate, TOEIC 680.</p>
